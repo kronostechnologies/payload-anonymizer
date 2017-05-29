@@ -1,0 +1,29 @@
+{
+  "name": "payload-anonymizer",
+  "version": "1.0.0",
+  "description": "Replaces values in a payload with faker data based on an anonymization map",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test:watch": "npm test -- --watch",
+    "example": "node example/anonymize.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kronostechnologies/payload-anonymizer.git"
+  },
+  "author": "Kronos Technologies",
+  "license": "MIT",
+  "homepage": "https://github.com/kronostechnologies/payload-anonymizer",
+  "dependencies": {
+    "faker": "^4.1.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "phone": "^1.0.10",
+    "social-insurance-number": "0.0.2"
+  },
+  "devDependencies": {
+    "chai": "^4.0.0",
+    "mocha": "^3.4.2"
+  }
+}
