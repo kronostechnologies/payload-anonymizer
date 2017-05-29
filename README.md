@@ -21,7 +21,7 @@ Custom methods can also be provided. The Faker.js is given as the first paramete
 
 When the data is an array of object, an object with the keys must be provided to know the fields to anonymize. The structure of the payload will be kept accordingly.
 
-When the data is an array fo scalar, a string with the method to use to anonymize must be provided. The structure of the payload will be kept accordingly.
+When the data is an array of scalar, a string with the method to use to anonymize must be provided. The structure of the payload will be kept accordingly.
 
 ```javascript
 const anonymization_map = {
